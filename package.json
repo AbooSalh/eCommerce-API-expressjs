@@ -1,0 +1,37 @@
+{
+  "name": "ecommerce-api-expressjs",
+  "version": "1.0.0",
+  "description": "This is a RESTful API for an eCommerce platform built using Express.js and MongoDB. It provides authentication, product management, cart handling, order processing, and payment integration.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node --loader ts-node/esm src/index.ts",
+    "build": "tsc",
+    "serve": "node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AbooSalh/eCommerce-API-expressjs.git"
+  },
+  "keywords": [
+    "ecommerce",
+    "api",
+    "express",
+    "node",
+    "js"
+  ],
+  "author": "Ahmed Saleh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AbooSalh/eCommerce-API-expressjs/issues"
+  },
+  "homepage": "https://github.com/AbooSalh/eCommerce-API-expressjs#readme",
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.13.9",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.2"
+  }
+}
