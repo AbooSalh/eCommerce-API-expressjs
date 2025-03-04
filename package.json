@@ -38,6 +38,7 @@
     "typescript": "^5.8.2"
   },
   "dependencies": {
+    "mongoose": "^8.12.0",
     "morgan": "^1.10.0"
   }
 }
